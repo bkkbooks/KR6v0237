@@ -1,0 +1,62 @@
+canonical_identifier: bkk:krp/KR6v0237/v1
+canonical_location: https://kanripo.org/bkk/KR6v0237/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 敬史君碑
+  identifiers:
+    alt_id:
+    - I01n0041
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/I/I01/I01n0041.xml
+    old_id: I01n0041
+  edition:
+    short: bkk
+editions:
+- short: 佛拓
+  label: 佛拓
+  source_xml_id: wit.orig
+- short: I
+assets:
+  parts:
+  - {seq: 0, filename: KR6v0237_000.yaml, hash: 'sha256:38b7e5d90ecef039513e39cd9e41126f381247b35c3eb940ff802aede20768e6'}
+  - {seq: 1, filename: KR6v0237_001.yaml, hash: 'sha256:1dcd141e73cba196562183be7c0ebc99519ae54fff9c3da8fafa8e3c417723ec'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6v0237_001.markers.yaml, hash: 'sha256:1397b55e7fea818497d6a36e7a2389941c1a4f71c19c03cd25e9fc22223494a0'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6v0237_I_001-juan-start
+    span:
+    - body
+    - 0
+    - 2454
+  label: 敬史君碑
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0237_I_001-mulu-1
+    span:
+    - body
+    - 0
+    - 0
+  label: 之一　碑陽
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0237_I_001-mulu-2
+    span:
+    - body
+    - 1300
+    - 1300
+  label: 之二　碑陰
+  type: mulu
+  level: 1
+hash: sha256:1ff9a95ac5331f1f403895837a26b74c51e29633924da9553874bf9b2db72c8b
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

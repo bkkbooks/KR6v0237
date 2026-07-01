@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6v0237/i/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 敬史君碑
+  edition:
+    short: i
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/I/I01/I01n0041.xml
+    old_id: I01n0041
+hash: sha256:38b7e5d90ecef039513e39cd9e41126f381247b35c3eb940ff802aede20768e6
